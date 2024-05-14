@@ -1,0 +1,11 @@
+framework module LegendDropdown {
+  umbrella header "LegendDropdown.h"
+  export *
+
+  module * { export * }
+}
+
+module LegendDropdown.Swift {
+  header "LegendDropdown-Swift.h"
+  requires objc
+}

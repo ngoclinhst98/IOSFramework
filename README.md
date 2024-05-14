@@ -2,4 +2,4 @@
 
 ## Author
 
-Nguyễn Ngọc Linh, ngoclinhst98@gmail.com
+Phạm Ngọc Linh, ngoclinhst98@gmail.com

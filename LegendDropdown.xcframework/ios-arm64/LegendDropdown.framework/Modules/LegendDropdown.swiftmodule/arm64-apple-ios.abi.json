@@ -1,0 +1,3068 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LegendDropdownModel",
+        "printedName": "LegendDropdownModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5ModelV3keySSvp",
+            "mangledName": "$s14LegendDropdown0aB5ModelV3keySSvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV3keySSvg",
+                "mangledName": "$s14LegendDropdown0aB5ModelV3keySSvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV3keySSvs",
+                "mangledName": "$s14LegendDropdown0aB5ModelV3keySSvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV3keySSvM",
+                "mangledName": "$s14LegendDropdown0aB5ModelV3keySSvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5ModelV5valueSSvp",
+            "mangledName": "$s14LegendDropdown0aB5ModelV5valueSSvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV5valueSSvg",
+                "mangledName": "$s14LegendDropdown0aB5ModelV5valueSSvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV5valueSSvs",
+                "mangledName": "$s14LegendDropdown0aB5ModelV5valueSSvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV5valueSSvM",
+                "mangledName": "$s14LegendDropdown0aB5ModelV5valueSSvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tag",
+            "printedName": "tag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5ModelV3tagSSvp",
+            "mangledName": "$s14LegendDropdown0aB5ModelV3tagSSvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV3tagSSvg",
+                "mangledName": "$s14LegendDropdown0aB5ModelV3tagSSvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV3tagSSvs",
+                "mangledName": "$s14LegendDropdown0aB5ModelV3tagSSvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5ModelV3tagSSvM",
+                "mangledName": "$s14LegendDropdown0aB5ModelV3tagSSvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:value:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LegendDropdownModel",
+                "printedName": "LegendDropdown.LegendDropdownModel",
+                "usr": "s:14LegendDropdown0aB5ModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14LegendDropdown0aB5ModelV3key5value3tagACSS_S2Stcfc",
+            "mangledName": "$s14LegendDropdown0aB5ModelV3key5value3tagACSS_S2Stcfc",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14LegendDropdown0aB5ModelV",
+        "mangledName": "$s14LegendDropdown0aB5ModelV",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BundleManager",
+        "printedName": "BundleManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadLegendDropdownUIView",
+            "printedName": "loadLegendDropdownUIView(legendDropdownUIView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LegendDropdownUIView",
+                "printedName": "LegendDropdown.LegendDropdownUIView",
+                "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LegendDropdown13BundleManagerC04loadaB6UIView06legendbF0yAA0abF0C_tF",
+            "mangledName": "$s14LegendDropdown13BundleManagerC04loadaB6UIView06legendbF0yAA0abF0C_tF",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadLegendDropdownUICell",
+            "printedName": "loadLegendDropdownUICell(table:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LegendDropdown13BundleManagerC04loadaB6UICell5tableySo11UITableViewC_tF",
+            "mangledName": "$s14LegendDropdown13BundleManagerC04loadaB6UICell5tableySo11UITableViewC_tF",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14LegendDropdown13BundleManagerC",
+        "mangledName": "$s14LegendDropdown13BundleManagerC",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LegendDropdownUIView",
+        "printedName": "LegendDropdownUIView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selectedDropdownData",
+            "printedName": "selectedDropdownData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LegendDropdown.LegendDropdownModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB6UIViewC08selectedB4DataAA0aB5ModelVSgvp",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC08selectedB4DataAA0aB5ModelVSgvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LegendDropdown.LegendDropdownModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LegendDropdownModel",
+                        "printedName": "LegendDropdown.LegendDropdownModel",
+                        "usr": "s:14LegendDropdown0aB5ModelV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC08selectedB4DataAA0aB5ModelVSgvg",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC08selectedB4DataAA0aB5ModelVSgvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LegendDropdown.LegendDropdownModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LegendDropdownModel",
+                        "printedName": "LegendDropdown.LegendDropdownModel",
+                        "usr": "s:14LegendDropdown0aB5ModelV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC08selectedB4DataAA0aB5ModelVSgvs",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC08selectedB4DataAA0aB5ModelVSgvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC08selectedB4DataAA0aB5ModelVSgvM",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC08selectedB4DataAA0aB5ModelVSgvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onSelected",
+            "printedName": "onSelected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((LegendDropdown.LegendDropdownModel?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LegendDropdown.LegendDropdownModel?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "LegendDropdown.LegendDropdownModel?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LegendDropdownModel",
+                            "printedName": "LegendDropdown.LegendDropdownModel",
+                            "usr": "s:14LegendDropdown0aB5ModelV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB6UIViewC10onSelectedyAA0aB5ModelVSgcSgvp",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC10onSelectedyAA0aB5ModelVSgcSgvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((LegendDropdown.LegendDropdownModel?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(LegendDropdown.LegendDropdownModel?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "LegendDropdown.LegendDropdownModel?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LegendDropdownModel",
+                                "printedName": "LegendDropdown.LegendDropdownModel",
+                                "usr": "s:14LegendDropdown0aB5ModelV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC10onSelectedyAA0aB5ModelVSgcSgvg",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC10onSelectedyAA0aB5ModelVSgcSgvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((LegendDropdown.LegendDropdownModel?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(LegendDropdown.LegendDropdownModel?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "LegendDropdown.LegendDropdownModel?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LegendDropdownModel",
+                                "printedName": "LegendDropdown.LegendDropdownModel",
+                                "usr": "s:14LegendDropdown0aB5ModelV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC10onSelectedyAA0aB5ModelVSgcSgvs",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC10onSelectedyAA0aB5ModelVSgcSgvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC10onSelectedyAA0aB5ModelVSgcSgvM",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC10onSelectedyAA0aB5ModelVSgcSgvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callbackEmptyAlert",
+            "printedName": "callbackEmptyAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB6UIViewC18callbackEmptyAlertyycSgvp",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC18callbackEmptyAlertyycSgvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC18callbackEmptyAlertyycSgvg",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC18callbackEmptyAlertyycSgvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC18callbackEmptyAlertyycSgvs",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC18callbackEmptyAlertyycSgvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC18callbackEmptyAlertyycSgvM",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC18callbackEmptyAlertyycSgvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFlexible",
+            "printedName": "isFlexible",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB6UIViewC10isFlexibleSbvp",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC10isFlexibleSbvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC10isFlexibleSbvg",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC10isFlexibleSbvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC10isFlexibleSbvs",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC10isFlexibleSbvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB6UIViewC10isFlexibleSbvM",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC10isFlexibleSbvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "intrinsicContentSize",
+            "printedName": "intrinsicContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView(py)intrinsicContentSize",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC20intrinsicContentSizeSo6CGSizeVvp",
+            "moduleName": "LegendDropdown",
+            "overriding": true,
+            "objc_name": "intrinsicContentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView(im)intrinsicContentSize",
+                "mangledName": "$s14LegendDropdown0aB6UIViewC20intrinsicContentSizeSo6CGSizeVvg",
+                "moduleName": "LegendDropdown",
+                "overriding": true,
+                "objc_name": "intrinsicContentSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LegendDropdown.LegendDropdownUIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownUIView",
+                    "printedName": "LegendDropdown.LegendDropdownUIView",
+                    "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView(im)initWithCoder:",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LegendDropdown",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LegendDropdownUIView",
+                "printedName": "LegendDropdown.LegendDropdownUIView",
+                "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView(im)initWithFrame:",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "LegendDropdown",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView(im)layoutSubviews",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC14layoutSubviewsyyF",
+            "moduleName": "LegendDropdown",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupLegendDropdown",
+            "printedName": "setupLegendDropdown(title:dropdownData:selectedDropdownData:backgroundColor:isFlexible:height:callbackWhenEmpty:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableAttributedString",
+                "printedName": "Foundation.NSMutableAttributedString",
+                "usr": "c:objc(cs)NSMutableAttributedString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LegendDropdown.LegendDropdownModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LegendDropdown.LegendDropdownModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LegendDropdown0aB6UIViewC05setupaB05title12dropdownData08selectedbG015backgroundColor10isFlexible6height17callbackWhenEmptyySo25NSMutableAttributedStringC_SayAA0aB5ModelVGAOSgSo7UIColorCSgSb14CoreFoundation7CGFloatVSgyycSgtF",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC05setupaB05title12dropdownData08selectedbG015backgroundColor10isFlexible6height17callbackWhenEmptyySo25NSMutableAttributedStringC_SayAA0aB5ModelVGAOSgSo7UIColorCSgSb12CoreGraphics7CGFloatVSgyycSgtF",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAlert",
+            "printedName": "setAlert(text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LegendDropdown0aB6UIViewC8setAlert4textySS_tF",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC8setAlert4textySS_tF",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:numberOfRowsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LegendDropdown@objc(cs)LegendDropdownUIView(im)tableView:numberOfRowsInSection:",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC9tableView_21numberOfRowsInSectionSiSo07UITableE0C_SitF",
+            "moduleName": "LegendDropdown",
+            "objc_name": "tableView:numberOfRowsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:cellForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LegendDropdown@objc(cs)LegendDropdownUIView(im)tableView:cellForRowAtIndexPath:",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC9tableView_12cellForRowAtSo07UITableE4CellCSo0jE0C_10Foundation9IndexPathVtF",
+            "moduleName": "LegendDropdown",
+            "objc_name": "tableView:cellForRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:didSelectRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LegendDropdown@objc(cs)LegendDropdownUIView(im)tableView:didSelectRowAtIndexPath:",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC9tableView_14didSelectRowAtySo07UITableE0C_10Foundation9IndexPathVtF",
+            "moduleName": "LegendDropdown",
+            "objc_name": "tableView:didSelectRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textView",
+            "printedName": "textView(_:shouldChangeTextIn:replacementText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextView",
+                "printedName": "UIKit.UITextView",
+                "usr": "c:objc(cs)UITextView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LegendDropdown@objc(cs)LegendDropdownUIView(im)textView:shouldChangeTextInRange:replacementText:",
+            "mangledName": "$s14LegendDropdown0aB6UIViewC8textView_18shouldChangeTextIn011replacementH0SbSo06UITextE0C_So8_NSRangeVSStF",
+            "moduleName": "LegendDropdown",
+            "objc_name": "textView:shouldChangeTextInRange:replacementText:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LegendDropdown@objc(cs)LegendDropdownUIView",
+        "mangledName": "$s14LegendDropdown0aB6UIViewC",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "LegendDropdown"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LegendDropdownField",
+        "printedName": "LegendDropdownField",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableAttributedString",
+                "printedName": "Foundation.NSMutableAttributedString",
+                "usr": "c:objc(cs)NSMutableAttributedString"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV5titleSo25NSMutableAttributedStringCvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV5titleSo25NSMutableAttributedStringCvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableAttributedString",
+                    "printedName": "Foundation.NSMutableAttributedString",
+                    "usr": "c:objc(cs)NSMutableAttributedString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV5titleSo25NSMutableAttributedStringCvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV5titleSo25NSMutableAttributedStringCvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableAttributedString",
+                    "printedName": "Foundation.NSMutableAttributedString",
+                    "usr": "c:objc(cs)NSMutableAttributedString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV5titleSo25NSMutableAttributedStringCvs",
+                "mangledName": "$s14LegendDropdown0aB5FieldV5titleSo25NSMutableAttributedStringCvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV5titleSo25NSMutableAttributedStringCvM",
+                "mangledName": "$s14LegendDropdown0aB5FieldV5titleSo25NSMutableAttributedStringCvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV4sizeSo6CGSizeVvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV4sizeSo6CGSizeVvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV4sizeSo6CGSizeVvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV4sizeSo6CGSizeVvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV4sizeSo6CGSizeVvs",
+                "mangledName": "$s14LegendDropdown0aB5FieldV4sizeSo6CGSizeVvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV4sizeSo6CGSizeVvM",
+                "mangledName": "$s14LegendDropdown0aB5FieldV4sizeSo6CGSizeVvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dropdownData",
+            "printedName": "dropdownData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LegendDropdown.LegendDropdownModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV12dropdownDataSayAA0aB5ModelVGvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV12dropdownDataSayAA0aB5ModelVGvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LegendDropdown.LegendDropdownModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LegendDropdownModel",
+                        "printedName": "LegendDropdown.LegendDropdownModel",
+                        "usr": "s:14LegendDropdown0aB5ModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV12dropdownDataSayAA0aB5ModelVGvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV12dropdownDataSayAA0aB5ModelVGvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LegendDropdown.LegendDropdownModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LegendDropdownModel",
+                        "printedName": "LegendDropdown.LegendDropdownModel",
+                        "usr": "s:14LegendDropdown0aB5ModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV12dropdownDataSayAA0aB5ModelVGvs",
+                "mangledName": "$s14LegendDropdown0aB5FieldV12dropdownDataSayAA0aB5ModelVGvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV12dropdownDataSayAA0aB5ModelVGvM",
+                "mangledName": "$s14LegendDropdown0aB5FieldV12dropdownDataSayAA0aB5ModelVGvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedDropdownData",
+            "printedName": "selectedDropdownData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LegendDropdownModel",
+                "printedName": "LegendDropdown.LegendDropdownModel",
+                "usr": "s:14LegendDropdown0aB5ModelV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV08selectedB4DataAA0aB5ModelVvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV08selectedB4DataAA0aB5ModelVvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV08selectedB4DataAA0aB5ModelVvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV08selectedB4DataAA0aB5ModelVvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV08selectedB4DataAA0aB5ModelVvs",
+                "mangledName": "$s14LegendDropdown0aB5FieldV08selectedB4DataAA0aB5ModelVvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV08selectedB4DataAA0aB5ModelVvM",
+                "mangledName": "$s14LegendDropdown0aB5FieldV08selectedB4DataAA0aB5ModelVvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$selectedDropdownData",
+            "printedName": "$selectedDropdownData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<LegendDropdown.LegendDropdownModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV09$selectedB4Data7SwiftUI7BindingVyAA0aB5ModelVGvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV09$selectedB4Data7SwiftUI7BindingVyAA0aB5ModelVGvp",
+            "moduleName": "LegendDropdown",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<LegendDropdown.LegendDropdownModel>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LegendDropdownModel",
+                        "printedName": "LegendDropdown.LegendDropdownModel",
+                        "usr": "s:14LegendDropdown0aB5ModelV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV09$selectedB4Data7SwiftUI7BindingVyAA0aB5ModelVGvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV09$selectedB4Data7SwiftUI7BindingVyAA0aB5ModelVGvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV15backgroundColorSo7UIColorCSgvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV15backgroundColorSo7UIColorCSgvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV15backgroundColorSo7UIColorCSgvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV15backgroundColorSo7UIColorCSgvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV15backgroundColorSo7UIColorCSgvs",
+                "mangledName": "$s14LegendDropdown0aB5FieldV15backgroundColorSo7UIColorCSgvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV15backgroundColorSo7UIColorCSgvM",
+                "mangledName": "$s14LegendDropdown0aB5FieldV15backgroundColorSo7UIColorCSgvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFlexible",
+            "printedName": "isFlexible",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV10isFlexibleSbvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV10isFlexibleSbvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV10isFlexibleSbvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV10isFlexibleSbvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV10isFlexibleSbvs",
+                "mangledName": "$s14LegendDropdown0aB5FieldV10isFlexibleSbvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV10isFlexibleSbvM",
+                "mangledName": "$s14LegendDropdown0aB5FieldV10isFlexibleSbvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alertText",
+            "printedName": "alertText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV9alertTextSSvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV9alertTextSSvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV9alertTextSSvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV9alertTextSSvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV9alertTextSSvs",
+                "mangledName": "$s14LegendDropdown0aB5FieldV9alertTextSSvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV9alertTextSSvM",
+                "mangledName": "$s14LegendDropdown0aB5FieldV9alertTextSSvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$alertText",
+            "printedName": "$alertText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV10$alertText7SwiftUI7BindingVySSGvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV10$alertText7SwiftUI7BindingVySSGvp",
+            "moduleName": "LegendDropdown",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV10$alertText7SwiftUI7BindingVySSGvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV10$alertText7SwiftUI7BindingVySSGvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callbackWhenEmpty",
+            "printedName": "callbackWhenEmpty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV17callbackWhenEmptyyycSgvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV17callbackWhenEmptyyycSgvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV17callbackWhenEmptyyycSgvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV17callbackWhenEmptyyycSgvg",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV17callbackWhenEmptyyycSgvs",
+                "mangledName": "$s14LegendDropdown0aB5FieldV17callbackWhenEmptyyycSgvs",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV17callbackWhenEmptyyycSgvM",
+                "mangledName": "$s14LegendDropdown0aB5FieldV17callbackWhenEmptyyycSgvM",
+                "moduleName": "LegendDropdown",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:size:dropdownData:selectedDropdownData:backgroundColor:isFlexible:alertText:callbackWhenEmpty:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LegendDropdownField",
+                "printedName": "LegendDropdown.LegendDropdownField",
+                "usr": "s:14LegendDropdown0aB5FieldV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableAttributedString",
+                "printedName": "Foundation.NSMutableAttributedString",
+                "usr": "c:objc(cs)NSMutableAttributedString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LegendDropdown.LegendDropdownModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<LegendDropdown.LegendDropdownModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LegendDropdownModel",
+                    "printedName": "LegendDropdown.LegendDropdownModel",
+                    "usr": "s:14LegendDropdown0aB5ModelV"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14LegendDropdown0aB5FieldV5title4size12dropdownData08selectedbG015backgroundColor10isFlexible9alertText17callbackWhenEmptyACSo25NSMutableAttributedStringC_So6CGSizeVSayAA0aB5ModelVG7SwiftUI7BindingVyAQGSo7UIColorCSgSbAUySSGyycSgtcfc",
+            "mangledName": "$s14LegendDropdown0aB5FieldV5title4size12dropdownData08selectedbG015backgroundColor10isFlexible9alertText17callbackWhenEmptyACSo25NSMutableAttributedStringC_So6CGSizeVSayAA0aB5ModelVG7SwiftUI7BindingVyAQGSo7UIColorCSgSbAUySSGyycSgtcfc",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LegendDropdown0aB5FieldV4bodyQrvp",
+            "mangledName": "$s14LegendDropdown0aB5FieldV4bodyQrvp",
+            "moduleName": "LegendDropdown",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LegendDropdown0aB5FieldV4bodyQrvg",
+                "mangledName": "$s14LegendDropdown0aB5FieldV4bodyQrvg",
+                "moduleName": "LegendDropdown",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14LegendDropdown0aB5FieldV",
+        "mangledName": "$s14LegendDropdown0aB5FieldV",
+        "moduleName": "LegendDropdown",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UITextView",
+        "printedName": "UITextView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "contentSize",
+            "printedName": "contentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@LegendDropdown@@objc(cs)UITextView(py)contentSize",
+            "mangledName": "$sSo10UITextViewC14LegendDropdownE11contentSizeSo6CGSizeVvp",
+            "moduleName": "LegendDropdown",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "contentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@LegendDropdown@@objc(cs)UITextView(im)contentSize",
+                "mangledName": "$sSo10UITextViewC14LegendDropdownE11contentSizeSo6CGSizeVvg",
+                "moduleName": "LegendDropdown",
+                "overriding": true,
+                "implicit": true,
+                "isOpen": true,
+                "objc_name": "contentSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@LegendDropdown@@objc(cs)UITextView(im)setContentSize:",
+                "mangledName": "$sSo10UITextViewC14LegendDropdownE11contentSizeSo6CGSizeVvs",
+                "moduleName": "LegendDropdown",
+                "overriding": true,
+                "implicit": true,
+                "isOpen": true,
+                "objc_name": "setContentSize:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITextView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UITextView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownField\/Models\/LegendDropdownModel.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/Customs\/BundleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 24,
+      "value": "\"com.PNL.LegendDropdown\""
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/Extensions\/UITextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 284,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/Extensions\/UITextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/Extensions\/UITextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/Extensions\/UITextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 415,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/Extensions\/UITextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 624,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 962,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1056,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1104,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1218,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1259,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "Array",
+      "offset": 1319,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "Array",
+      "offset": 1380,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1863,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2355,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2393,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2730,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownUIView\/LegendDropdownUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3678,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownField\/Views\/LegendDropdown.swift",
+      "kind": "BooleanLiteral",
+      "offset": 735,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vnpttgg\/Documents\/Library\/iOS\/LegendDropdown\/LegendDropdown\/LegendDropdownField\/Views\/LegendDropdown.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
